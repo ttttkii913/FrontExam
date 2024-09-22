@@ -1,8 +1,10 @@
 function createArray() {
     // 이 함수를 구현하라
-    let a1 = [1, 2];
-    let a2 = [3, 4, 5];
-    let a = [a1, a2];
+    let a = [
+      [1, 2],
+      [3, 4, 5],
+      [3, 4, 5]
+    ];
     a[2] = a[1];
     return a;
   }
