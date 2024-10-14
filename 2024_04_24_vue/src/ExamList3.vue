@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
-const list = ref([1]);
-const wordIndex = ref(1);
+const list = ref([]);
+const wordIndex = ref(0);
 
 function remove(index) {
   if (confirm("삭제하시겠습니까?")) {
